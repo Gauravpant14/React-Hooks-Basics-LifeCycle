@@ -21,3 +21,26 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+const [name, setFirstName] = useState("");
+
+            const onInputChange = (event) => {
+              setFirstName(event.target.value);
+            };
+          
+          
+            const [email, setEmail] = useState("");
+          
+            const onInputCha = (event) => {
+              setEmail(event.target.value);
+            };
+          
+            const [password, setPassword] = useState("");
+          
+            const onInputCh = (event) => {
+              setPassword(event.target.value);
+            };      
+
+
+<Api data ={posts} />
