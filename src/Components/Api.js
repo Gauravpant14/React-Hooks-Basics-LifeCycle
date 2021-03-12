@@ -11,7 +11,7 @@ const Api = ({data}) => {
         <div>
             <ul>
                 {
-                    data.map(post => <li key={post._id}>{post.name}</li>)
+                    data.map(post => <li key={post._id}> <b>Name :</b> {post.name} <b> Email :</b> {post.email}</li>)
                 }
             </ul>
         </div>
